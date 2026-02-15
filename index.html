@@ -35,6 +35,12 @@
         box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
         border: 1px solid #e7e2da;
       }
+      .header {
+        text-align: center;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #e7e2da;
+        margin-bottom: 20px;
+      }
       h1 {
         margin: 0 0 12px 0;
         font-size: 32px;
@@ -65,6 +71,21 @@
         font-family: "Inter", "Segoe UI", sans-serif;
       }
       li { margin: 6px 0; }
+      .logo {
+        display: block;
+        height: 56px;
+        width: auto;
+        margin: 0 auto 6px;
+      }
+      .logo-text {
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: #0a5a6b;
+        margin-bottom: 10px;
+        font-family: "Inter", "Segoe UI", sans-serif;
+      }
       footer {
         margin-top: 18px;
         font-size: 13px;
@@ -76,7 +97,11 @@
   <body>
     <main>
       <div class="card">
-        <h1>Trava Account Deletion</h1>
+        <header class="header">
+          <img class="logo" src="https://hsxvsxginscakgqihrky.supabase.co/storage/v1/object/public/public-assets/logos/trava_logo_no_text.png" alt="Trava logo" />
+          <div class="logo-text">Trava</div>
+          <h1>Trava Account Deletion</h1>
+        </header>
         <p>To request deletion of your Trava account and associated data, please email:</p>
         <div class="email">ExploreWithTrava@gmail.com</div>
         <p>Include:</p>
